@@ -103,7 +103,7 @@ wsOpts = {
 **`wsProvider.disconnect()`**\
 ****    Disconnect from the server and don't try to reconnect.
 
-**`wsProvider.connect()` **\
+**`wsProvider.connect()`**\
 ****    Establish a websocket connection to the websocket-server. Call this if you recently disconnected or if you set `wsOpts.connect = false`.
 
 **`wsProvider.destroy()`**\
